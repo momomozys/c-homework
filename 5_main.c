@@ -15,12 +15,12 @@ int main(){
             printf("%.2f\n",a*b);
         }else if(m=='/'){
             if(b==0){
-                printf("错误：除数不能为0\n");
+                printf("错误：除数不能为 0\n");
             }else{
                 printf("%.2f\n",a/b);
             }
         }
-        
+    
         }else{
             printf("错误：不支持的运算符\n");
         }
